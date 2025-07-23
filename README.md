@@ -1,8 +1,7 @@
 # Re-Imagine Robotics Website
 
----
 
-This repository houses the official website for **Re-Imagine Robotics**, a project expertly crafted by Phoenix Tech Solutions. We focused on building a **modern, responsive, and high-performance** web presence.
+This repository houses the official website for **Re-Imagine Robotics**, a program offering a transformative journey for students in grades 4 through 8, guiding them from being participants to emerging as confident leaders.
 
 ## Tech Stack
 
@@ -13,5 +12,3 @@ This repository houses the official website for **Re-Imagine Robotics**, a proje
 ---
 
 **Note:** This website is not yet deployed to a production environment.
-
-**Previous Website:** You can view the prior version of the Re-Imagine Robotics website [here](https://www.re-imaginerobotics.com/).

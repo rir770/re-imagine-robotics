@@ -264,26 +264,13 @@ function App() {
                 <a href="/Summer Camp 2025 Flyer.pdf" download className="signup-link">
                   Download Summer Camp Flyer
                 </a>
-                <p>or scan the QR code</p>
-                <div className="qr-placeholder">
-                  <img src={qrcode} alt="QR Code" className="qr-code-image" />
-                </div>
               </div>
             </div>
-            <div className="contact-form">
-              <h3>Send us a message</h3>
-              <form action={key} method="POST">
-                <div className="form-group">
-                  <input type="text" name="name" placeholder="Your Name" required />
-                </div>
-                <div className="form-group">
-                  <input type="email" name="email" placeholder="Your Email" required />
-                </div>
-                <div className="form-group">
-                  <textarea name="message" placeholder="Your Message" rows={5} required></textarea>
-                </div>
-                <button type="submit" className="submit-button">Send Message</button>
-              </form>
+            <div className="qr-code-container">
+              <p>or scan the QR code</p>
+              <div className="qr-placeholder">
+                <img src={qrcode} alt="QR Code" className="qr-code-image" />
+              </div>
             </div>
           </div>
         </div>

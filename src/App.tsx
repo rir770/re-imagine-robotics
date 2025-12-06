@@ -33,8 +33,6 @@ const testimonials = [
 
 function App() {
   const [activeTestimonial, setActiveTestimonial] = useState(0);
-  const key = import.meta.env.VITE_KEY;
-
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveTestimonial((prev) => (prev + 1) % testimonials.length);

@@ -77,7 +77,7 @@ function App() {
       }}>
         <div className="hero-content">
           <h1 className="hero-title">Re-imagine Robotics</h1>
-          <h2 className="hero-subtitle">Building Future Engineers</h2>
+          <h2 className="hero-subtitle">Building Future Engineers...</h2>
           <button className="cta-button" onClick={() => window.open('https://forms.gle/LRnv4SBBLyEqH5AV7', '_blank')}>Join Our Program</button>
         </div>
         <div className="scroll-indicator" onClick={scrollToAbout}>
@@ -258,10 +258,6 @@ function App() {
                 <a href="https://forms.gle/LRnv4SBBLyEqH5AV7" target="_blank" rel="noopener noreferrer" className="signup-link">
                   Fill in the form
                 </a>
-                <br/>
-                <a href="/Summer Camp 2025 Flyer.pdf" download className="signup-link">
-                  Download Summer Camp Flyer
-                </a>
               </div>
             </div>
             <div className="qr-code-container">
@@ -294,7 +290,7 @@ function App() {
         </div>
         <div className="footer-bottom">
           <span className="credit-line">Website made possible by <strong>Phoenix Tech Solutions</strong></span>
-          <p>&copy; 2023 Re-imagine Robotics. All rights reserved.</p>
+          <p>&copy; 2025 Re-imagine Robotics. All rights reserved.</p>
         </div>
       </footer>
     </div>

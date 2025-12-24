@@ -49,6 +49,28 @@ body {
   color: var(--secondary-color);
   padding: 0 20px;
   position: relative;
+  overflow: hidden;
+}
+
+.heroBg {
+  position: absolute;
+  inset: -25%;               /* extra room so rotation doesn't reveal corners */
+  background-size: cover;
+  background-position: center;
+  transform: rotate(90deg);
+  z-index: 0;
+}
+
+.heroOverlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.hero > :not(.heroBg):not(.heroOverlay) {
+  position: relative;
+  z-index: 2; /* keep content above bg + overlay */
 }
 
 .hero-content {

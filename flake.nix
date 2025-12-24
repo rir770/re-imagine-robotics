@@ -15,6 +15,7 @@
       packages = with pkgs; [
         nodejs_24
         pnpm
+        gemini-cli
         # effectively an alias to pn
         (pkgs.writeShellScriptBin "pn" ''
           exec pnpm "$@"

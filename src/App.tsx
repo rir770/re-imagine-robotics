@@ -7,7 +7,7 @@ import programing from '../public/programing.png'
 import desgin from '../public/designthink.png'
 import pic1 from '../public/pic1.jpg'
 import vexworld from '../public/vexworld.png'
-import robot from '../public/robot.png'
+import robot from '../public/main.png'
 import qrcode from '../public/qr_code.png'
 
 const testimonials = [
@@ -72,9 +72,19 @@ function App() {
         </div>
       </header>
 
-      <header className="hero" style={{ 
-        backgroundImage: `linear-gradient(135deg, rgba(232, 208, 50, 0.9), rgba(232, 208, 50, 0.7)), url(${robot})` 
-      }}>
+    <header className="hero">
+      <div
+        className="heroBg"
+        style={{
+          backgroundImage: `url(${robot})`,
+        }}
+      />
+      <div
+        className="heroOverlay"
+        style={{
+          backgroundImage: `linear-gradient(135deg, rgba(232, 208, 50, 0.9), rgba(232, 208, 50, 0.7))`,
+        }}
+      />
         <div className="hero-content">
           <h1 className="hero-title">Re-imagine Robotics</h1>
           <h2 className="hero-subtitle">Building Future Engineers...</h2>
